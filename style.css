@@ -5,10 +5,16 @@
 
 ul li {
     list-style-type: none;
-    line-height-property: 3px;
+   
 }
 
-.img {
-    hover:
-    opacity: 
+img:hover {
+    color:palegreen;
+background-color: turquoise;
+transform: scale(2, 2);
+
+}
+
+h1 {
+    color:purple;
 }
