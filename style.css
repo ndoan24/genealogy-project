@@ -18,3 +18,17 @@ transform: scale(2, 2);
 h1 {
     color:purple;
 }
+.h1, .h2 {
+  width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 60px auto;
+    background-color: violet;
+    color:white;
+    border-radius: 50px;
+    cursor: pointer;
+    color:white;
+    transition-property: color, background-color, transform;
+    transition-duration: 4s;
+    transition-delay: 
+}
