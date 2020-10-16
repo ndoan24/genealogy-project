@@ -15,9 +15,6 @@ transform: scale(2, 2);
 
 }
 
-h1 {
-    color:purple;
-}
 .h1, .h2 {
   width: 100px;
     line-height: 0;
@@ -32,3 +29,38 @@ h1 {
     transition-duration: 4s;
     transition-delay: 
 }
+
+
+main {
+    background-color: lightblue;
+    border-bottom: solid black 2px;
+    background-size: cover;
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color:skyblue;
+     } 
+     .center {
+       font-size: 14px;
+     }
+   }
+
+   @media screen and (min-width:768px) {
+
+     body {
+       background-color: purple;
+     }
+     .center {
+       font-size: 60px;
+       font-family: cursive;
+     }
+   }
+
+   @media screen and (min-width:1025px) {
+    body {
+      background-color:skyblue;
+    }
+   }

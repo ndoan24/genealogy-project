@@ -24,21 +24,108 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
  
+<style>
 
+* { margin: 0;
+padding: 0;
+font-family: monospace;
+font-size: 25px;
+}
+
+ul li {
+  float: left;
+  list-style-type: none;
+  background-color: violet;
+  opacity: 0.8;
+
+}
+
+ul li a {
+border: black solid 1px;
+box-shadow: 15px 8px; 16px 15px black;
+margin-right: 5px;
+text-decoration: none;
+width: 120px;
+height: 50px;
+line-height: 50px;
+display: inline-block;
+color: rebeccapurple;
+text-align: center;
+
+}
+
+ul li a:hover {
+background-color: silver;
+color: seagreen;
+font-size: 30px;
+}
+
+.dropdown li a {
+height: 35px;
+line-height: 35px;
+
+
+}
+
+.dropdown li {
+  float: none;
+
+}
+
+li .dropdown {
+visibility: hidden;
+
+}
+
+li:hover .dropdown {
+  visibility: visible;
+  
+}
+
+
+</style>
 
 </head>
 
 <body>
 
-    <!--this is the column-->
+    <!--this is the nav -->
 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Learn More</a>
+        
+  
+          <div class="dropdown">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html">Learn More</a></li>
+              <li><a href="index.html">Contact</a></li>
+  
+            </ul>
+  
+          </div>
+  
+        </li>
+    
+  
+        </ul>
+  
+        </div>
+  
+  <!-- this is the end-->
+  
+  
+        <li><a href="index.html">Contact</a></li>
+  
+      </ul>
 
 
 
 
     <!--this is the nav bar-->
-    <div class="container-fluid">
-        <div class="row">
+    <!-- <div class="container-fluid"> -->
+        <!-- <div class="row">
             <div class="col-12">
                 <div class="page-header text-center">
                     <h1>Genealogist</h1>
@@ -65,7 +152,7 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
         <!--the is end of nav bar-->
 
