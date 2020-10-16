@@ -12,7 +12,7 @@ img:hover {
     color:palegreen;
 background-color: turquoise;
 transform: scale(2, 2);
-
+width: 300px;
 }
 
 .h1, .h2 {
@@ -27,7 +27,6 @@ transform: scale(2, 2);
     color:white;
     transition-property: color, background-color, transform;
     transition-duration: 4s;
-    transition-delay: 
 }
 
 
@@ -64,3 +63,9 @@ main {
       background-color:skyblue;
     }
    }
+
+   .p {
+    display: in-line block;
+   }
+
+   
