@@ -1,0 +1,46 @@
+/* .input:checked {
+    height: 55px;
+    width: 55px;
+    }
+     */
+
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 40px;
+    border: purple inset 5px;
+}
+
+
+.flex1 {
+    filter: blur(4px);
+}
+
+.flex2 {
+    filter: brightness(60%);
+}
+
+.flex3 {
+    filter: contrast(10%);
+}
+
+.flex4 {
+    filter: drop-shadow(10px 30px 4px #AC17C1);
+}
+
+.flex5 {
+    filter: grayscale(80%);
+}
+
+/*x, y blur percent, color /*
+/*uses percent/*
+/*uses px*/
+/*filter property, used for images, modify the color, contrast, brightness of an image, filer: effect name (params)
